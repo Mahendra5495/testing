@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer & Stopwatch</title>
+    <link rel="stylesheet" href="/Timer and Watch/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="stopwatch">
+                <h1>STOP WATCH</h1>
+                <p id="timer-element1">00<span>Hr</span>:00<span>Min</span>:00<span>Sec</span></p>
+                <div class="btns-div">
+                    <button class="btn" id="btn-stop">Stop</button>
+                    <button class="btn" id="btn-start">Start</button>
+                    <button class="btn" id="btn-reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>TIMER</h1>
+            <h3>Set Timer</h3>
+            <div class="get-time">
+                <input placeholder="hours" id="hours" type="number" min="0">
+                <input placeholder="minutes" id="minutes" type="number" min="0">
+                <input placeholder="seconds" id="seconds" type="number" min="0">
+            </div>
+            <p id="timer-element2">00<span>Hr</span>:00<span>Min</span>:00<span>Sec</span></p>
+            <div class="btns-div">
+                <button class="btn" id="stop">Stop</button>
+                <button class="btn" id="start">Start</button>
+                <button class="btn" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="/Timer and Watch/script.js"></script>
+    <script src="/Timer and Watch/timer.js"></script>
+</body>
+
+</html>
